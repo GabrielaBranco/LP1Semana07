@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GameUnits", "GameUnits\Game
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassVsStruct", "ClassVsStruct\ClassVsStruct.csproj", "{35140FF5-83CB-45C7-ACFA-CF539D6907A9}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StructWithRef", "StructWithRef\StructWithRef.csproj", "{6DF36B97-2832-4358-AB41-B8DEC201DAD8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -24,5 +26,9 @@ Global
 		{35140FF5-83CB-45C7-ACFA-CF539D6907A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{35140FF5-83CB-45C7-ACFA-CF539D6907A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{35140FF5-83CB-45C7-ACFA-CF539D6907A9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6DF36B97-2832-4358-AB41-B8DEC201DAD8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6DF36B97-2832-4358-AB41-B8DEC201DAD8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6DF36B97-2832-4358-AB41-B8DEC201DAD8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6DF36B97-2832-4358-AB41-B8DEC201DAD8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

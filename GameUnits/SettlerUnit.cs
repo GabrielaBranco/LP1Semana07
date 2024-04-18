@@ -4,10 +4,7 @@ namespace GameUnits
     {
         public override float Cost
         {
-            get
-            {
-                return 5;
-            }
+            get => 5;
         }
         public SettlerUnit() : base ( movement: 1, health: 3 ){}
     }

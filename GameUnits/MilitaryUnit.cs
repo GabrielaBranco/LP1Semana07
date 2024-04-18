@@ -6,14 +6,12 @@ namespace GameUnits
         public int XP { get; private set; }
         public override int Health
         { 
-            set => base.Health = base.Health + XP; 
+            get => base.Health + XP;
+            set => base.Health = value; 
         }
         public override float Cost
         {
-            get
-            {
-                return AttackPower + XP;
-            }
+            get => AttackPower + XP;
         }
 
         public MilitaryUnit(int mov, int health, int attackPower) : base(mov, health)
@@ -27,6 +25,5 @@ namespace GameUnits
             XP++;
             u.Health = u.Health - AttackPower;
         }
-
     }
 }

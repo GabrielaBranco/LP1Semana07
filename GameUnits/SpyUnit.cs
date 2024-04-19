@@ -6,7 +6,7 @@ namespace GameUnits
         
         public override float Cost
         {
-            get => _cost;
+            get => (float)_cost;
         }
 
         public SpyUnit() : base (movement : 8, health : 2)
